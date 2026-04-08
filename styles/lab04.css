@@ -19,11 +19,11 @@ h1 {
 }
 
 * { font-family: calibri, sans-serif;
-    color: #2F4F4F}
+    color: #2F4F4F;}
 
 
 h2 {
-    color: rgb(0,128,128)
+    color: rgb(0,128,128);
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -59,4 +59,13 @@ nav a {
 
 ol ul li {
     list-style-type: square;
+}
+
+aside:hover  {
+    display: none;
+}
+
+nav a:hover  {
+    background-color: lightblue;
+    border-color: darkblue;
 }
